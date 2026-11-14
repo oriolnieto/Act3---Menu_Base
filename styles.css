@@ -8,7 +8,12 @@
    ============================================ */
 
 :root {
-  
+  --primary-color: #c8102e;
+  --secondary-color: #003da5;
+  --accent-color: #ffffff;
+  --background-color: #f4f6fb;
+  --text-color: #333333;
+  --border-color: #cccccc;
 }
 
 
