@@ -90,12 +90,6 @@ nav {
   gap: 2rem;
 }
 
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
 .logo {
   color: var(--primary-color);
   font-family: var(--heading-font);
@@ -421,18 +415,6 @@ footer {
   border-radius: 50%;
   font-weight: 800;
   transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
-}
-
-.social-link:nth-child(1)::before {
-  content: "IG";
-}
-
-.social-link:nth-child(2)::before {
-  content: "FB";
-}
-
-.social-link:nth-child(3)::before {
-  content: "X";
 }
 
 .social-link:hover {
