@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>De Lage Landen - Menú Digital</title>
+    <title>Maasluis in de Stad - Menú Digital</title>
     
     <!-- Afegeix aquí el teu link de Google Fonts (mateix de l'Act 2) -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue"> 
@@ -14,7 +14,10 @@
     <!-- HEADER AMB NAVEGACIÓ -->
     <header>
         <nav>
-            <div class="logo">De Lage Landen</div>
+            <div class="brand">
+                <div class="logo-placeholder" role="img" aria-label="Espai reservat per al logo"></div>
+                <div class="logo">Maasluis in de Stad</div>
+            </div>
             <ul class="nav-menu">
                 <li><a href="#inici">Inici</a></li>
                 <li><a href="#menu">Menú</a></li>
@@ -31,14 +34,14 @@
     </section>
 
     <!-- FILTRES DE CATEGORIA -->
-    <section class="category-filters">
+    <div class="category-filters">
         <div class="filters">
             <button class="filter-btn active" data-category="tots">Tots</button>
             <button class="filter-btn" data-category="entrants">Entrants</button>
             <button class="filter-btn" data-category="principals">Principals</button>
             <button class="filter-btn" data-category="postres">Postres</button>
         </div>
-    </section>
+    </div>
 
     <!-- SECCIÓ D'ENTRANTS -->
     <section id="menu" class="menu-section">
@@ -47,7 +50,7 @@
             <!-- Card 1 -->
             <div class="dish-card" data-category="entrants">
                 <div class="dish-image">
-                    <!-- Pots afegir una imatge o deixar-ho amb color de fons -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/20220602_bitterballen_different_types.jpg/960px-20220602_bitterballen_different_types.jpg" alt="Bitterballen tradicionals">
                 </div>
                 <div class="dish-info">
                     <div class="dish-header">
@@ -66,7 +69,9 @@
 
             <!-- Card 2 -->
             <div class="dish-card" data-category="entrants">
-                <div class="dish-image"></div>
+                <div class="dish-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Haring_04.jpg/960px-Haring_04.jpg" alt="Haring amb ceba dolça">
+                </div>
                 <div class="dish-info">
                     <div class="dish-header">
                         <h3 class="dish-name">Haring amb ceba dolça</h3>
@@ -83,7 +88,9 @@
 
             <!-- Card 3 -->
             <div class="dish-card" data-category="entrants">
-                <div class="dish-image"></div>
+                <div class="dish-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Broodje_kaassouffle.jpg/960px-Broodje_kaassouffle.jpg" alt="Kaassoufflé">
+                </div>
                 <div class="dish-info">
                     <div class="dish-header">
                         <h3 class="dish-name">Kaassoufflé</h3>
@@ -107,7 +114,9 @@
         <div class="dishes-grid">
             <!-- Card 1 -->
             <div class="dish-card" data-category="principals">
-                <div class="dish-image"></div>
+                <div class="dish-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Stamppot-01_%2811993497346%29.jpg/960px-Stamppot-01_%2811993497346%29.jpg" alt="Stamppot de salsitxa fumada">
+                </div>
                 <div class="dish-info">
                     <div class="dish-header">
                         <h3 class="dish-name">Stamppot de salsitxa fumada</h3>
@@ -124,7 +133,9 @@
 
             <!-- Card 2 -->
             <div class="dish-card" data-category="principals">
-                <div class="dish-image"></div>
+                <div class="dish-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Sate_Ayam_Panggang.jpg/960px-Sate_Ayam_Panggang.jpg" alt="Bistec amb salsa saté">
+                </div>
                 <div class="dish-info">
                     <div class="dish-header">
                         <h3 class="dish-name">Bistec amb salsa saté</h3>
@@ -141,7 +152,9 @@
 
             <!-- Card 3 -->
             <div class="dish-card" data-category="principals">
-                <div class="dish-image"></div>
+                <div class="dish-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Pancake_on_pan.jpg/960px-Pancake_on_pan.jpg" alt="Pannenkoek de porro i Gouda">
+                </div>
                 <div class="dish-info">
                     <div class="dish-header">
                         <h3 class="dish-name">Pannenkoek de porro i Gouda</h3>
@@ -158,7 +171,9 @@
 
             <!-- Card 4 -->
             <div class="dish-card" data-category="principals">
-                <div class="dish-image"></div>
+                <div class="dish-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Kibbeling_hoofddorp_marktplein.jpg/960px-Kibbeling_hoofddorp_marktplein.jpg" alt="Kibbeling de bacallà">
+                </div>
                 <div class="dish-info">
                     <div class="dish-header">
                         <h3 class="dish-name">Kibbeling de bacallà</h3>
@@ -182,7 +197,9 @@
         <div class="dishes-grid">
             <!-- Card 1 -->
             <div class="dish-card" data-category="postres">
-                <div class="dish-image"></div>
+                <div class="dish-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Poffertjes-Melkhuis_%28cropped%29.jpg/960px-Poffertjes-Melkhuis_%28cropped%29.jpg" alt="Poffertjes">
+                </div>
                 <div class="dish-info">
                     <div class="dish-header">
                         <h3 class="dish-name">Poffertjes</h3>
@@ -200,7 +217,9 @@
 
             <!-- Card 2 -->
             <div class="dish-card" data-category="postres">
-                <div class="dish-image"></div>
+                <div class="dish-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Apple_cake_with_vanilla_ice_cream_2.jpg/960px-Apple_cake_with_vanilla_ice_cream_2.jpg" alt="Appeltaart casolana">
+                </div>
                 <div class="dish-info">
                     <div class="dish-header">
                         <h3 class="dish-name">Appeltaart casolana</h3>
@@ -219,7 +238,9 @@
 
             <!-- Card 3 -->
             <div class="dish-card" data-category="postres">
-                <div class="dish-image"></div>
+                <div class="dish-image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Karamel-zeezout_chocolade-kruidnoten_%28Buiten_Gewoon_-_Hoogvliet%29%2C_Hillegersberg%2C_Rotterdam_%282020%29_01.jpg/960px-Karamel-zeezout_chocolade-kruidnoten_%28Buiten_Gewoon_-_Hoogvliet%29%2C_Hillegersberg%2C_Rotterdam_%282020%29_01.jpg" alt="Kruidnoten amb xocolata">
+                </div>
                 <div class="dish-info">
                     <div class="dish-header">
                         <h3 class="dish-name">Kruidnoten amb xocolata</h3>
@@ -296,9 +317,9 @@
     <footer id="contacte">
         <div class="footer-content">
             <div class="footer-info">
-                <p>&copy; 2026 De Lage Landen. Tots els drets reservats.</p>
+                <p>&copy; 2026 Maasluis in de Stad. Tots els drets reservats.</p>
                 <p>Adreça: Carrer dels Canals, 12, Barcelona</p>
-                <p>Tel: 933 456 789 | Email: hola@delagelanden.cat</p>
+                <p>Tel: 933 456 789 | Email: hola@maasluisindestad.nl</p>
             </div>
             <div class="footer-social">
                 <a href="#" class="social-link" aria-label="Instagram"></a>
